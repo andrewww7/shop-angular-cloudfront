@@ -3,7 +3,7 @@ import { Config } from './config.interface';
 export const environment: Config = {
   production: true,
   apiEndpoints: {
-    product: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
+    product: 'https://id2domg2y1.execute-api.eu-west-1.amazonaws.com/dev',
     order: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
     import: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
     bff: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
@@ -13,7 +13,7 @@ export const environment: Config = {
     product: false,
     order: false,
     import: false,
-    bff: false,
+    bff: true,
     cart: false,
   },
 };
